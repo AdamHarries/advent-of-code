@@ -1,7 +1,3 @@
-fn cfuel(mass: i32) -> i32 {
-    (mass / 3) - 2
-}
-
 fn rec_fuel(mass: i32) -> i32 {
     let direct_fuel = (mass / 3) - 2;
     if direct_fuel < 0 {
